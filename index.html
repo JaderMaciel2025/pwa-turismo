@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TAI - Turismo Inteligente</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🌎 TAI - Turismo Assistido por Inteligência</h1>
+  </header>
+
+  <div class="busca-container">
+    <input type="text" id="busca" placeholder="Digite 'parque', 'café', etc...">
+    <button onclick="buscar()">🔍 Buscar</button>
+    <button onclick="vozBuscar()">🎤</button>
+  </div>
+
+  <div id="map"></div>
+
+  <section id="resultados"></section>
+
+  <footer>
+    <p>&copy; 2025 TAI - Gravataí</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
